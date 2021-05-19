@@ -1,20 +1,11 @@
 {
-  "name": "base58-universal",
-  "version": "1.0.1-0",
+  "name": "@digitalcredentials/base58-universal",
+  "version": "1.0.0",
   "description": "Encode/decode using the Base58 Bitcoin Encoding Scheme.",
-  "homepage": "https://github.com/digitalbazaar/base58-universal",
-  "author": {
-    "name": "Digital Bazaar, Inc.",
-    "email": "support@digitalbazaar.com",
-    "url": "https://digitalbazaar.com/"
-  },
+  "homepage": "https://github.com/digitalcredentials/base58-universal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/base58-universal"
-  },
-  "bugs": {
-    "url": "https://github.com/digitalbazaar/base58-universal/issues",
-    "email": "support@digitalbazaar.com"
+    "url": "https://github.com/digitalcredentials/base58-universal"
   },
   "license": "BSD-3-Clause",
   "files": [
