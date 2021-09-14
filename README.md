@@ -1,4 +1,4 @@
-# Base58 Universal Encoder/Decoder _(base58-universal)_
+# Base58 Universal Encoder/Decoder _(@digitalcredentials/base58-universal)_
 
 > Encoder/decoder for [The Base58 Encoding Scheme][] for [Node.js][] and Web browsers
 
@@ -18,6 +18,9 @@ TBD
 
 ## Background
 
+(Forked from [`digitalbazaar/base58-universal`](https://github.com/digitalbazaar/base58-universal) 
+to provide TypeScript compatibility.)
+
 This library provides an encoder and decoder for [The Base58 Encoding Scheme][]
 using an alphabet popularized by Bitcoin. It works in both [Node.js][] and in
 Web browsers with no dependencies.
@@ -29,13 +32,13 @@ Web browsers with no dependencies.
 To install for [Node.js][] or in a Web project using npm:
 
 ```
-npm install base58-universal
+npm install @digitalcredentials/base58-universal
 ```
 
 To install locally or for development:
 
 ```
-git clone https://github.com/digitalbazaar/base58-universal.git
+git clone https://github.com/digitalcredentials/base58-universal.git
 cd base58-universal
 npm install
 ```
@@ -45,11 +48,11 @@ npm install
 The library can be loaded with CommonJS or ESM:
 
 ```js
-const {encode, decode} = require('base58-universal');
+const {encode, decode} = require('@digitalcredentials/base58-universal');
 ````
 
 ```js
-import {encode, decode} from 'base58-universal';
+import {encode, decode} from '@digitalcredentials/base58-universal';
 ```
 
 ### Encoding
